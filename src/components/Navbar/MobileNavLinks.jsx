@@ -17,5 +17,4 @@ const MobileNavLinks = ({ setToggle, href, link }) => {
     </li>
   );
 };
-
 export default MobileNavLinks;

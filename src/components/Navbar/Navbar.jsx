@@ -31,7 +31,7 @@ const Navbar = () => {
               className="text-3xl sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
             />
-            <div className="text-xl text-Teal uppercase tracking-wide font-bold">
+            <div className="text-xl text-Teal uppercase tracking-wide font-bold underline ">
               Gyan Dhara
             </div>
           </div>

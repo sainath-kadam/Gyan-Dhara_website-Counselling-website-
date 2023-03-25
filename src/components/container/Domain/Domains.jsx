@@ -25,13 +25,10 @@ const Domains = () => {
       <div className="text-center">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
           Our <span className="text-Teal">
-          counsel Domain</span>
+          counselling Domain</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-          amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-          sit! Lorem ipsum dolor sit amet.
+        We provide expert counseling for JEE Mains, NEET, MHCET, Private College  exams. Our personalized guidance and support help you achieve your full potential and succeed in these competitive exams. Explore our website to learn more.
         </p>
       </div>
       <motion.div
@@ -44,15 +41,22 @@ const Domains = () => {
           return <Categories key={category.id} {...category} />;
         })}
       </motion.div>
-      <div className="text-xl font-bold mt-32">On Going counselling Process</div>
-      <div className="mt-12 overflow-x-hidden w-full  relative border-[3px] border-solid border-Teal rounded-lg">
+
+      <br/>
+      <br/>
+      <br/>
+      <div className="sm:text-3xl text-2xl font-bold mb-5">
+          Our <span className="text-Teal">
+          counselling Domain</span>
+        </div>
+      
         <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide ">
           {courses.map((course) => {
             return <Course key={course.id} {...course} />;
           })}
         </div>
       </div>
-    </div>
+    
   );
 };
 

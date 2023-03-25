@@ -6,4 +6,4 @@ import Yt_channel from "./container/Yt_channel";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
 
-export { Navbar, Home, About, Domains, Councellor,Yt_channel, Footer };
+export { Navbar, Home, About, Domains, Councellor, Yt_channel, Footer };

@@ -11,14 +11,17 @@ import courses5 from "./assets/courses5.jpg";
 import courses6 from "./assets/courses6.jpg";
 
 
-import logo1 from "./assets/logo1.png";
-import logo2 from "./assets/logo2.png";
-import logo3 from "./assets/logo3.png";
-import logo4 from "./assets/logo4.png";
-import logo5 from "./assets/logo5.png";
-import logo6 from "./assets/logo6.png";
-import logo7 from "./assets/logo7.png";
-import logo8 from "./assets/logo8.png";
+import logo9 from "./assets/logo9.png";
+import logo10 from "./assets/logo10.png";
+import logo11 from "./assets/logo11.png";
+import logo12 from "./assets/logo12.png";
+import logo14 from "./assets/logo14.png";
+import logo16 from "./assets/logo16.png";
+import logo17 from "./assets/logo17.png";
+import logo18 from "./assets/logo18.png";
+
+
+export const logos = [logo9, logo10, logo11, logo12, logo14, logo16,logo17,logo18];
 
 export const navLinks = [
   {
@@ -39,11 +42,11 @@ export const navLinks = [
   {
     id: 4,
     href: "councellor",
-    link: "Councellor",
+    link: "Counsellor",
   },
   {
     id: 5,
-    href: "Yt_channel",
+    href: "yt_channel",
     link: "YT_Channel",
   },
 ];
@@ -67,7 +70,7 @@ export const categories = [
   {
     id: 4,
     icon: <MdOutlineScience />,
-    category: "Private Colleges",
+    category: "Top State Colleges",
   },
 ];
 
@@ -76,55 +79,55 @@ export const courses = [
     id: 1,
     image: courses1,
     category: "Jee Mains",
-    title: "Councelling",
+    title: "Counselling",
     rating: 4.9,
     participants: 200,
-    price: 1000,
+    price: 12,
   },
   {
     id: 2,
     image: courses2,
     category: "MH-CET",
-    title: "Councelling",
+    title: "Counselling",
     rating: 4.8,
     participants: 150,
-    price: 800,
+    price: 18,
   },
   {
     id: 3,
     image: courses3,
     category: "BITSAT",
-    title: "Councelling",
-    rating: 4.9,
+    title: "Counselling",
+    rating: 4.7,
     participants: 100,
-    price: 1200,
+    price: 20,
   },
   {
     id: 4,
     image: courses4,
     category: "NEET",
-    title: "Councelling",
-    rating: 4.7,
+    title: "Counselling",
+    rating: 4.4,
     participants: 600,
-    price: 85,
+    price: 20,
   },
   {
     id: 5,
     image: courses5,
     category: "VITEEE",
-    title: "Councelling",
-    rating: 4.9,
+    title: "Counselling",
+    rating: 4.8,
     participants: 500,
-    price: 105,
+    price: 10,
   },
   {
     id: 6,
     image: courses6,
     category: "SRAM",
-    title: "Councelling",
+    title: "Counselling",
     rating: 4.9,
     participants: 500,
-    price: 105,
+    price: 10,
   },
   // {
   //   id: 7,
@@ -146,23 +149,27 @@ export const courses = [
   // },
 ];
 
-export const logos = [logo1, logo2, logo3, logo4, logo5, logo6,logo7,logo8];
+
 
 export const accordions = [
   {
     id: 1,
-    title: "What is Councelling?",
+    title: "What is counselling?",
+    ans:" College counseling is a process where students receive guidance and support in navigating the college admissions process. The goal is to help students achieve their academic and personal goals and find the best fit for their college education."
   },
   {
     id: 2,
     title: "Why it is important?",
+    ans:" College counseling is important because it helps students choose the right college, assists them in the application process, provides guidance on financial aid and scholarships, and offers personalized support for students."
   },
   {
     id: 3,
-    title: "how to start process?",
+    title: "How to start process?",
+    ans:" To start the college application process, research different colleges, check admission requirements, and gather necessary materials such as transcripts and test scores. Then, submit your application by the deadline and follow up with any additional requirements or information needed."
   },
   {
     id: 4,
-    title: "what are the things included in it ?",
+    title: "what  kind of support will be provided by counselore ?",
+    ans:" A college counselor can assist with filling out the application, updating dates, requesting admission latter, tracking deadlines, and ensuring all requirements are met."
   },
 ];

@@ -30,18 +30,25 @@ const Home = () => {
             your counsellor
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            This is <br /> the new way <br /> for counselling
+          A modern <br /> take on  <br /> counselling
+            
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-            officia sit vitae quo, eum similique?
+          "Empowering students to achieve their academic and personal goals through individualized counseling."
           </p>
           <div className="mt-6">
             <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
-              Apply.
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSchmA3q1x07nKvtI66XdPH8MS7lto-Gt2ng93DxuM4hNSQGuA/viewform?usp=sf_link"  target="_blank">
+              
+            Register 
+              </a>
             </button>
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
-              Contact.
+            <a href="mailto:mydearsainathkadam@gmail.com?cc=sender@example.com" target="_blank ">
+            
+            
+            Connect with us
+              </a>
             </button>
           </div>
         </div>
@@ -52,9 +59,9 @@ const Home = () => {
       </div>
       <div>
         <p className="text-center text-xl">
-          We have strong  connections {" "}
+          We have strong  support & Connections at Different Colleges  {" "}
           <span className="text-Teal">
-            with different college students. 
+            at different Colleges 
           </span>
         </p>
         <motion.div

@@ -1,6 +1,9 @@
 import React from "react";
+import { AiFillLinkedin } from 'react-icons/ai';
+import { FaYoutube } from 'react-icons/fa';
+
 import {
-  BsFacebook,
+  
   BsInstagram,
   BsTwitter,
   BsPinterest,
@@ -19,8 +22,7 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+          Ready to achieve your full potential in NEET, MHCET, or JEE Mains? Apply for our expert counseling services today and get the personalized guidance and support you need to succeed
           </p>
         </div>
         <div>
@@ -64,19 +66,19 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">mydearsainathkadam@gamil.com</div>
-          <div className="text-sm">+957887765249</div>
+          <div className="text-sm">+917887765249</div>
           <div className="flex gap-4 mt-4">
-            <a href="" className="hover:scale-110 text-xl">
-              <BsFacebook />
+            <a href="https://www.linkedin.com/in/sainath-kadam-724ab3234" target="_blank " className="hover:scale-110 text-xl">
+              <AiFillLinkedin/>
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="https://instagram.com/gyan_dhara_official?igshid=ZDdkNTZiNTM=" target="_blank " className="hover:scale-110 text-xl">
               <BsInstagram />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="https://twitter.com/Mr_Saayoo?t=flXwBZZuhnUsmWUpW08enQ&s=09"  target="_blank "className="hover:scale-110 text-xl">
               <BsTwitter />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
-              <BsPinterest />
+            <a href="https://www.youtube.com/@gyandhara1793" target="_blank " className="hover:scale-110 text-xl">
+            <FaYoutube />
             </a>
           </div>
         </div>
